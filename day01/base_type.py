@@ -15,8 +15,6 @@ def add(aint, bint):  # 申明一个变量，变成数值，打印出来
     print(bint)
     return aint + bint
 
-
-if __name__ == '__main__':  # 程序的入口
     # int_demo()
     # 提取变量
     result = add(1, 2)
