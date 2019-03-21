@@ -75,6 +75,21 @@ def float_demo():
     print(type(afloat))
 
 
+# def str_demo3():
+#     a = 'hello'
+#     b = 250
+#     print('%s%s'%(a,b))
+
+
+
+
+def add(aint,bint):
+     print(aint)
+    print(bint)
+     return aint+bint
+
+if __name__ == '__main__':#     add2 = add(1, 2)
+     print(add2)
 
 
 if __name__ == '__main__':
