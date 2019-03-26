@@ -42,7 +42,7 @@ if __name__ == '__main__':
         print(i)
 
 
-    # 删除订单
+    # 删除订单--
 
     response_del = requests.post(url='http://192.168.60.132:8080/order/delete?ids=44', headers=head)
     print(response_del.json())
