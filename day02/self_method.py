@@ -47,7 +47,7 @@ def if_demo2():
 
 
 
-def elif_demo():
+# def elif_demo():
 
 
 

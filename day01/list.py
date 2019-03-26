@@ -1,3 +1,6 @@
+
+intqq=50
+
 def list_demo():
     alist = [4, 'ysl', '8', 7]
     print(alist)

@@ -1,5 +1,5 @@
 # 这是一个注释
-# model  模块
+# model  模块  就是一个.py的文件 一个文件是一个小模块,如果包内有__init__.py文件,那么他就是一个大模块
 # main 主要的
 # print 打印
 # def 声明方法
@@ -83,13 +83,13 @@ def float_demo():
 
 
 
-def add(aint,bint):
-     print(aint)
-    print(bint)
-     return aint+bint
+# def add(aint,bint):
+#      print(aint)
+#     print(bint)
+#      return aint+bint
 
-if __name__ == '__main__':#     add2 = add(1, 2)
-     print(add2)
+# if __name__ == '__main__':#     add2 = add(1, 2)
+#      print(add2)
 
 
 if __name__ == '__main__':
