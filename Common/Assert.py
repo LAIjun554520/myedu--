@@ -8,7 +8,7 @@ from Common import Consts
 import json
 
 
-class Assertions:
+class Assertion:
     def __init__(self):
         self.log = Log.MyLog()
 
@@ -45,7 +45,7 @@ class Assertions:
             self.log.error("Response body msg != expected_msg, expected_msg is %s, body_msg is %s" % (expected_msg, body_msg))
 
             raise
-    # @classmethod
+    @classmethod
     def assert_in_text(self, body, expected_msg):
         """
         验证response body中是否包含预期字符串
